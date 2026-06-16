@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{F25704F0-5293-4C11-9174-DFC8AACF30D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.Domain", "Generic.Domain\Generic.Domain.csproj", "{746E89DF-8447-47B1-A043-5A51A247E254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SentinelAuth", "SentinelAuth", "{D45E55CD-CAF1-4675-8718-3AB202C1EEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelAuth.Domain", "SentinelAuth.Domain\SentinelAuth.Domain.csproj", "{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelAuth.Application", "SentinelAuth.Application\SentinelAuth.Application.csproj", "{F6D203DC-6A56-474B-9A87-DB2152C3C3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic.API", "Generic.API\Generic.API.csproj", "{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelAuth.API", "SentinelAuth.API\SentinelAuth.API.csproj", "{B8641825-E6C0-4BEA-80FB-C3946F59CFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelAuth.Infrastructure", "SentinelAuth.Infrastructure\SentinelAuth.Infrastructure.csproj", "{70D70933-7759-42CD-9B68-FC8112E5012E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746E89DF-8447-47B1-A043-5A51A247E254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746E89DF-8447-47B1-A043-5A51A247E254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746E89DF-8447-47B1-A043-5A51A247E254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746E89DF-8447-47B1-A043-5A51A247E254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D203DC-6A56-474B-9A87-DB2152C3C3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D203DC-6A56-474B-9A87-DB2152C3C3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D203DC-6A56-474B-9A87-DB2152C3C3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D203DC-6A56-474B-9A87-DB2152C3C3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8641825-E6C0-4BEA-80FB-C3946F59CFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8641825-E6C0-4BEA-80FB-C3946F59CFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8641825-E6C0-4BEA-80FB-C3946F59CFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8641825-E6C0-4BEA-80FB-C3946F59CFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D70933-7759-42CD-9B68-FC8112E5012E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D70933-7759-42CD-9B68-FC8112E5012E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D70933-7759-42CD-9B68-FC8112E5012E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D70933-7759-42CD-9B68-FC8112E5012E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{746E89DF-8447-47B1-A043-5A51A247E254} = {F25704F0-5293-4C11-9174-DFC8AACF30D2}
+		{6F3A4A31-795E-41D3-9BED-DD92E01C8FE9} = {D45E55CD-CAF1-4675-8718-3AB202C1EEEA}
+		{F6D203DC-6A56-474B-9A87-DB2152C3C3B4} = {D45E55CD-CAF1-4675-8718-3AB202C1EEEA}
+		{3B8B109C-BAE8-44D7-95B8-B362CD2EFC49} = {F25704F0-5293-4C11-9174-DFC8AACF30D2}
+		{B8641825-E6C0-4BEA-80FB-C3946F59CFEC} = {D45E55CD-CAF1-4675-8718-3AB202C1EEEA}
+		{70D70933-7759-42CD-9B68-FC8112E5012E} = {D45E55CD-CAF1-4675-8718-3AB202C1EEEA}
+	EndGlobalSection
+EndGlobal
