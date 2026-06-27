@@ -19,7 +19,7 @@ public class User : BaseEntity
         PasswordHash = passwordHash;
     }
 
-    public static Result<User> Create(string name, string email, string password)
+    public static Result<User> Create(string name, string email, string passwordHash)
     {
         if (string.IsNullOrWhiteSpace(name))
         {
@@ -33,7 +33,7 @@ public class User : BaseEntity
             return Result<User>.Failed(emailValidation.Message, emailValidation.ErrorType!.Value);
         }
         
-        var user = new User(name, emailValidation.Data!, password);
+        var user = new User(name, emailValidation.Data!, passwordHash);
         
         return Result<User>.Success("Usuario criado com sucesso", user);
     }
